@@ -31,13 +31,13 @@ $(document).ready(function(){
             var thisHour = parseInt($(this).attr("id"));
     
             if (thisHour > hour) {
-                $(this).addClass("future")
+                $(".schedule").addClass("future")
             }
             else if (thisHour === hour) {
-                $(this).addClass("present");
+                $(".schedule").addClass("present");
             }
             else {
-                $(this).addClass("past");
+                $(".schedule").addClass("past");
             }
         })
     }
