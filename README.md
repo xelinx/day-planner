@@ -28,5 +28,7 @@ HTML Semantic Elements https://www.w3schools.com/html/html5_semantic_elements.as
 jQuery API https://api.jquery.com/
 
 moments.js https://momentjs.com/
+
+Local Storage https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

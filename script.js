@@ -4,12 +4,20 @@ $(document).ready(function(){
     $("#currentDay").text(moment().format('dddd, MMMM Do'));
 
     //Retrieve stored data
-    var schedule = localStorage.getItem(".hour")
+    $(".time-block").each(function () {
+        var id = $(this).attr(".hour");
+        var schedule = localStorage.getItem(id);
+
+        if (schedule !== null) {
+            $(this).children(".schedule").val(schedule);
+        }
+    });
+
     //Define save button
     var saveBtn = $(".saveBtn")
 
     //Save button stores data in local storage
-    saveBtn.addEventListener("click", function (){
+    saveBtn.on("click", function (){
         var time = $(this).parent().attr(".hour");
         var schedule = $(this).siblings(".schedule").val();
     
