@@ -3,6 +3,7 @@
 Creating a user friendly calendar that saves events for each hour of the day using HTML, CSS, and jQuery or JavaScript.
 
 ## Screenshots of the Deployed Website
+![Planner](https://user-images.githubusercontent.com/66236313/87411951-45bfc100-c57d-11ea-87e6-a318380d1fe2.png)
 
 
 ## Review
