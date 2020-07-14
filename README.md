@@ -1,5 +1,7 @@
 # day-planner
 
+Creating a user friendly calendar that saves events for each hour of the day using HTML, CSS, and jQuery or JavaScript.
+
 ## Screenshots of the Deployed Website
 
 
@@ -9,11 +11,11 @@ The following is submitted for review:
 
 * The URL of the deployed application.
 
-https://xelinx.github.io/code-quiz/
+https://xelinx.github.io/day-planner/
 
 * The URL of the GitHub repository which includes a README describing the project.
 
-https://github.com/xelinx/code-quiz
+https://github.com/xelinx/day-planner
 
 HTML Checker
 
