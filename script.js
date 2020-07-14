@@ -33,7 +33,12 @@ $(document).ready(function(){
             if (thisHour > hour) {
                 $(this).addClass("future")
             }
-            
+            else if (thisHour === hour) {
+                $(this).addClass("present");
+            }
+            else {
+                $(this).addClass("past");
+            }
         })
     }
     
